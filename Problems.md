@@ -37,6 +37,7 @@ Output: 1
 
 `Sliding Window`
 
+---
 # 3 Longest Repeating Character Replacement
 ## Problem Statement
 You are given a string s and an integer k. 
@@ -63,6 +64,7 @@ There may exists other ways to achieve this answer too.
 
 `Sliding Window`
 
+---
 # 4 Permutation in String
 ## Problem Statement
 Given two strings s1 and s2, return true if s2 contains a permutation of s1, or false otherwise.
@@ -84,7 +86,8 @@ Output: false
 
 `Sliding Window`
 
-# 3Sum Problem
+---
+# 5 3Sum Problem
 ## Problem Statement
 Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] 
 such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
