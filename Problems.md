@@ -119,3 +119,32 @@ Explanation: The only possible triplet sums up to 0.
 [Link to Solution](src/ThreeSum.java)
 
 `Two Pointer`
+
+---
+# 6. Binary Tree Zigzag Level Order Traversal
+## Problem statement
+
+Given the root of a binary tree, 
+return the zigzag level order traversal of its nodes' values. (i.e., from left to right, then right to left for the next level and alternate between)
+
+```
+Example 1:
+```
+
+![image](./resources/Problem6_0.png)
+```
+Input: root = [3,9,20,null,null,15,7]
+Output: [[3],[20,9],[15,7]]
+Example 2:
+
+Input: root = [1]
+Output: [[1]]
+Example 3:
+
+Input: root = []
+Output: []
+```
+
+[Link to Solution](./src/BTZigzag.java)
+
+`Queue, LinkedList, BSF`
