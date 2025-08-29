@@ -11,7 +11,7 @@ Output: 3
 Explanation: The answer is "abc", with the length of 3.
 ```
 
-[Link to Solution](src/LengthOfLongestSubstring.java)
+[Link to Solution](./src/main/java/LengthOfLongestSubstring.java)
 
 `Sliding Window`
 
@@ -33,7 +33,7 @@ Example 2:
 Input: target = 4, nums = [1,4,4]
 Output: 1
 ```
-[Link to Solution](src/MinSubArrayLength.java)
+[Link to Solution](./src/main/java/MinSubArrayLength.java)
 
 `Sliding Window`
 
@@ -60,7 +60,7 @@ The substring "BBBB" has the longest repeating letters, which is 4.
 There may exists other ways to achieve this answer too.
 ```
 
-[Link to Solution](src/LongestRepeatingCharReplacement.java)
+[Link to Solution](./src/main/java/LongestRepeatingCharReplacement.java)
 
 `Sliding Window`
 
@@ -82,7 +82,7 @@ Input: s1 = "ab", s2 = "eidboaoo"
 Output: false
 ```
 
-[Link to Solution](src/PermutationInString.java)
+[Link to Solution](./src/main/java/PermutationInString.java)
 
 `Sliding Window`
 
@@ -116,7 +116,7 @@ Output: [[0,0,0]]
 Explanation: The only possible triplet sums up to 0.
 ```
 
-[Link to Solution](src/ThreeSum.java)
+[Link to Solution](./src/main/java/ThreeSum.java)
 
 `Two Pointer`
 
@@ -145,6 +145,27 @@ Input: root = []
 Output: []
 ```
 
-[Link to Solution](./src/BTZigzag.java)
+[Link to Solution](./src/main/java/BTZigzag.java)
 
 `Queue, LinkedList, BSF`
+
+---
+# 7 Subarray Sum Equals K
+## Problem statement
+Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.
+A subarray is a contiguous non-empty sequence of elements within an array.
+
+```
+Example 1:
+
+Input: nums = [1,1,1], k = 2
+Output: 2
+Example 2:
+
+Input: nums = [1,2,3], k = 3
+Output: 2
+```
+
+[link to solution](./src/main/java/SubarraySumEqualsK.java)
+
+`Prefix Sum, HashMap`
